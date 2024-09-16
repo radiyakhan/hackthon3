@@ -4,7 +4,7 @@ body {
     background-color: #f5fff0;
 }
 .heading{
-    color: #920c8b;
+    color: #6c0c92;
     font-size:xx-large ;
    text-align: center;
    margin-top: 30px;
@@ -36,11 +36,11 @@ body {
     color: #5c0c92;
 }
 input[type="file"]{
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px;
     width: 250px;
     background-color:#be99ff ;
-    border-radius: 30px;
+    border-radius: 100px;
     margin-top: 20px;
 
 }
@@ -48,12 +48,12 @@ input[type="file"]::file-selector-button{
     background-color:#5c0c92;
     cursor: pointer;
     font-size: large;
-    color: white;
+    color: rgb(255, 255, 255);
     border-color: #5c0c92;
     border-radius: 10px;
 }
 input[type="file"]::file-selector-button:hover{
-    background-color: #c2ad8194;
+    background-color: #ba81c2;
 }
 input[type="submit"]{
     
@@ -78,18 +78,7 @@ input, textarea {
     
 }
     
-#resume {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-    border: 3px solid #5c0c92;
-    color: #5c0c92;
-    padding: 20px;
-    border-radius: 8px;
-    background-image: url(https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product-plain-studio-background_1258-54491.jpg);
-}
+
 .resumeinfo{
     background-color: beige;
     color: #5c0c92;
@@ -105,6 +94,41 @@ img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
+}
+
+#generatedResume {
+    max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    border: 3px solid #5c0c92;
+    color: #5c0c92;
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 8px;
+    height:450px;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url(https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product-plain-studio-background_1258-54491.jpg);
+}
+
+#generateBtn{
+    border-radius: 30px;
+    background-color: #5c0c92;
+    color: white;
+    font-size: large;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    text-decoration:solid;
+    border-radius: 30px;
+    color: white;
+    padding-bottom: 10px;
+    width: 500px;
+    height: 50px;
+
 }
 
 @media (max-width: 600px) {
