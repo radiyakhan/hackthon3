@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body background="image/image1.jpg!bw700">
-    <div class="heading"><strong>Milestone 3 Dynamic resume builder</strong></div>
+    <div class="heading"><strong>Milestone 3 Dynamic Resume Builder</strong></div>
     <div class="mainn">
     <form id="resumeForm">
-        <div class="personal"><strong>Personal Info</strong></div>
+        <div class="personal"><strong>Personal Information</strong></div>
         <label class="inputname" id="upload" for="picture"><strong>Upload Picture:</strong></label>
         <input class="forpic" type="file" id="picture" name="picture" accept="image/*"><br><br>
 
@@ -27,7 +27,7 @@
         <textarea id="address" name="address" required></textarea><br><br>
       
         <div class="personal"><strong>Skills</strong></div>
-        <label  class="inputname" for="skills"</label>
+        <label  class="inputname" for="skills"></label>
         <input type="text" id="skills" name="skills" required><br><br>
       
         <div class="personal"><strong>Education</strong></div>
@@ -39,25 +39,14 @@
         <textarea id="experience" name="experience" required></textarea><br><br>
       
       
-        <input  class="inputname" type="submit" value="Generate Resume">
+        
       </form>
     </div>
 
-      <div id="resume">
-        <h1 class="resumeinfo">Personal Info</h1>
-        <img id="displayPicture">
-        <h2 id="displayName"> </h2>
-        <p id="displayPhone"></p>
-        <p id="displayEmail"></p>
-        <p id="displayAddress"></p>
-        <h1  class="resumeinfo">Skills</h1>
-        <p id="displaySkills"></p>
-        <h1  class="resumeinfo">Education</h1>
-        <p id="displayEducation"></p>
-        <h1  class="resumeinfo">Experience</h1>
-        <p id="displayExperience"></p>
-        
-      </div>
+    <button id="generateBtn">Generate Resume</button>
+  
+    <!-- Generated Resume Section -->
+    <div id="generatedResume"></div>
 
       <script src="main.js"></script>
 </body>
